@@ -23,6 +23,9 @@ class Main:
         print('6) Rewrite log at certain position')
         print('7) Delete log at certain position')
         print('8) Remove all whitespaces')
+        print('9) Set all letters to lower case')
+        print('10) Set all letters to upper case')
+        print('11) Set each line to start with capital letter')
         print('Enter "exit" to stop app')
         user_input = ''
         user_input = input('Select Option:')
@@ -34,6 +37,7 @@ class Main:
             print('Thank you for using app')
 
     def __user_input(self, val):
+        val -= 1
         if val == 0:
             self.__ui_select_journal()
         elif val == 1:

@@ -11,4 +11,3 @@ This is line 10
 Appended chAnged line 1 
 Appended line 2
 This is a new log enTer 
-3 3 3 
